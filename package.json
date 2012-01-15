@@ -1,0 +1,21 @@
+{
+  "author": "Colin Ross <colin@colinscape.com> (http://colinscape.com/)",
+  "name": "food-network-extraction",
+  "description": "Extract recipes from Food Network",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/colinscape/food-network-extraction.git"
+  },
+  "main": "./extractor.coffee",
+  "engines": {
+    "node": "0.6.7"
+  },
+  "dependencies": {
+    "underscore": "1.3.0",
+    "htmlparser": "1.7.3",
+    "request": "2.9.3",
+    "soupselect": "0.2.0"
+  },
+  "devDependencies": {}
+}
